@@ -1,0 +1,17 @@
+{
+    "name": "mypackagist/test",
+    "homepage": "http://packagist.mypage.dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://gitlab.mypage.dev/tools.git"
+        }
+    ],
+    "require-all": false,
+    "require": {
+        "mytest/test": "*"
+    },
+    "config": {
+        "secure-http": false
+    }
+}
